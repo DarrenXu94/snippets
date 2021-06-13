@@ -33,8 +33,9 @@ export default function ${TM_FILENAME_BASE}() {
 
 ## Personal Reference
 
-| TM_SELECTED_TEXT | The currently selected text or the empty string             |
+| Variable         | Description                                                 |
 | ---------------- | ----------------------------------------------------------- |
+| TM_SELECTED_TEXT | The currently selected text or the empty string             |
 | TM_CURRENT_LINE  | The contents of the current line                            |
 | TM_CURRENT_WORD  | The contents of the word under cursor or the empty string   |
 | TM_LINE_INDEX    | The zero-index based line number                            |
