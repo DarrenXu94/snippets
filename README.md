@@ -12,6 +12,9 @@ Copy the relevant files over to the relevant extensions
 
 ## Snippets
 
+- [`func`](#-func-)
+- [`usef`](#-usef-)
+
 ### `func`
 
 ```
