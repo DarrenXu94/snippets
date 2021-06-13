@@ -15,6 +15,8 @@ Copy the relevant files over to the relevant extensions
 - [`func`](#-func-)
 - [`usef`](#-usef-)
 
+<a name="-func-"> </a>
+
 ### `func`
 
 ```
@@ -31,6 +33,8 @@ export default function ${TM_FILENAME_BASE}() {
   )
 }
 ```
+
+<a name="-usef-"> </a>
 
 ### `usef`
 
