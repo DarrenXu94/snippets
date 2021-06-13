@@ -17,5 +17,15 @@
 		  ""
 		],
 		"description": "Functional component with interface"
+      },
+      "useEffect": {
+		"prefix": "usef",
+		"body": [
+		  "  useEffect(() => {",
+		  "    $2",
+		  "  }, [$1]);",
+		  ""
+		],
+		"description": "useEffect with default cursor in the sources. Use tab to reach the body"
 	  }
 }

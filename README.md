@@ -31,6 +31,16 @@ export default function ${TM_FILENAME_BASE}() {
 }
 ```
 
+```
+usef
+```
+
+```
+useEffect(() => {
+  $2
+}, [$1]);
+```
+
 ## Personal Reference
 
 | Variable         | Description                                                 |
