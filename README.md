@@ -43,6 +43,8 @@ useEffect(() => {
 
 ## Personal Reference
 
+[Snippet generator](https://snippet-generator.app/?description=&tabtrigger=&snippet=&mode=vscode)
+
 | Variable         | Description                                                 |
 | ---------------- | ----------------------------------------------------------- |
 | TM_SELECTED_TEXT | The currently selected text or the empty string             |
