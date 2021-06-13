@@ -12,9 +12,7 @@ Copy the relevant files over to the relevant extensions
 
 ## Snippets
 
-```
-func
-```
+### `func`
 
 ```
 import React from 'react'
@@ -31,9 +29,7 @@ export default function ${TM_FILENAME_BASE}() {
 }
 ```
 
-```
-usef
-```
+### `usef`
 
 ```
 useEffect(() => {
