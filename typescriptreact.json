@@ -1,0 +1,21 @@
+{
+	"Functional component with interface": {
+		"prefix": "func",
+		"body": [
+		  "import React from 'react'",
+		  "",
+		  "export interface ${TM_FILENAME_BASE}Props {",
+		  "}",
+		  "",
+		  "export default function ${TM_FILENAME_BASE}() {",
+		  "  return (",
+		  "    <div>",
+		  "      ",
+		  "    </div>",
+		  "  )",
+		  "}",
+		  ""
+		],
+		"description": "Functional component with interface"
+	  }
+}
