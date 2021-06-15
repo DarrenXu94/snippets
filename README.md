@@ -14,6 +14,7 @@ Copy the relevant files over to the relevant extensions
 
 - [`func`](#-func-)
 - [`usef`](#-usef-)
+- [`storybook`](#-storybook-)
 
 <a name="-func-"> </a>
 
@@ -42,6 +43,29 @@ export default function ${TM_FILENAME_BASE}() {
 useEffect(() => {
   $2
 }, [$1]);
+```
+
+<a name="-storybook-"> </a>
+
+### `storybook`
+
+```
+import React from "react";
+import ${TM_FILENAME_BASE/(.*)\\..+$/$1/}, {${TM_FILENAME_BASE/(.*)\\..+$/$1/}Props} from "./${TM_FILENAME_BASE/(.*)\\..+$/$1/}";
+import { Meta, Story } from "@storybook/react";
+
+export default {
+  title: "${TM_FILENAME_BASE/(.*)\\..+$/$1/}",
+} as Meta;
+
+const Template: Story<${TM_FILENAME_BASE/(.*)\\..+$/$1/}Props> = (args) => {
+  return <${TM_FILENAME_BASE/(.*)\\..+$/$1/} {...args} />;
+};
+
+export const Primary = Template.bind({});
+Primary.args = {
+  $0
+};
 ```
 
 ## Personal Reference

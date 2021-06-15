@@ -27,5 +27,28 @@
 		  ""
 		],
 		"description": "useEffect with default cursor in the sources. Use tab to reach the body"
+	  },
+	  "Storybook story template": {
+		"prefix": "storybook",
+		"body": [
+		  "import React from \"react\";",
+		  "import ${TM_FILENAME_BASE/(.*)\\..+$/$1/}, {${TM_FILENAME_BASE/(.*)\\..+$/$1/}Props} from \"./${TM_FILENAME_BASE/(.*)\\..+$/$1/}\";",
+		  "import { Meta, Story } from \"@storybook/react\";",
+		  "",
+		  "export default {",
+		  "  title: \"${TM_FILENAME_BASE/(.*)\\..+$/$1/}\",",
+		  "} as Meta;",
+		  "",
+		  "const Template: Story<${TM_FILENAME_BASE/(.*)\\..+$/$1/}Props> = (args) => {",
+		  "  return <${TM_FILENAME_BASE/(.*)\\..+$/$1/} {...args} />;",
+		  "};",
+		  "",
+		  "export const Primary = Template.bind({});",
+		  "Primary.args = {",
+		  "  $0",
+		  "};",
+		  ""
+		],
+		"description": "Storybook story template"
 	  }
 }
