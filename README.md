@@ -24,9 +24,10 @@ Copy the relevant files over to the relevant extensions
 import React from 'react'
 
 export interface ${TM_FILENAME_BASE}Props {
+    $0
 }
 
-export default function ${TM_FILENAME_BASE}() {
+export default function ${TM_FILENAME_BASE}({}: ${TM_FILENAME_BASE}Props) {
   return (
     <div>
 
