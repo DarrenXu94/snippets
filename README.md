@@ -15,6 +15,7 @@ Copy the relevant files over to the relevant extensions
 - [`func`](#-func-)
 - [`usef`](#-usef-)
 - [`storybook`](#-storybook-)
+- [`usehook`](#-usehook-)
 
 <a name="-func-"> </a>
 
@@ -67,6 +68,20 @@ export const Primary = Template.bind({});
 Primary.args = {
   $0
 };
+```
+
+<a name="-usehook-"> </a>
+
+### `usehook`
+
+```
+export default function ${TM_FILENAME_BASE/(.*)\\..+$/$1/}() {
+  const func = async () => {
+    $0
+  };
+
+  return { func };
+}
 ```
 
 ## Personal Reference
