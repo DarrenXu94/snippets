@@ -16,6 +16,7 @@ Copy the relevant files over to the relevant extensions
 - [`usef`](#-usef-)
 - [`storybook`](#-storybook-)
 - [`usehook`](#-usehook-)
+- [`uses`](#-uses-)
 
 <a name="-func-"> </a>
 
@@ -82,6 +83,14 @@ export default function ${TM_FILENAME_BASE/(.*)\\..+$/$1/}() {
 
   return { func };
 }
+```
+
+<a name="-uses-"> </a>
+
+### `uses`
+
+```
+const [${1}, set${1/(.*)/${1:/capitalize}/}] = useState(${2})
 ```
 
 ## Personal Reference
