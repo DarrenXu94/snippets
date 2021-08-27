@@ -17,6 +17,7 @@ Copy the relevant files over to the relevant extensions
 - [`storybook`](#-storybook-)
 - [`usehook`](#-usehook-)
 - [`uses`](#-uses-)
+- [`backquote`](#-backquote-)
 
 <a name="-func-"> </a>
 
@@ -91,6 +92,14 @@ export default function ${TM_FILENAME_BASE/(.*)\\..+$/$1/}() {
 
 ```
 const [${1}, set${1/(.*)/${1:/capitalize}/}] = useState(${2})
+```
+
+<a name="-backquote-"> </a>
+
+### `$`
+
+```
+\\${$1}
 ```
 
 ## Personal Reference
